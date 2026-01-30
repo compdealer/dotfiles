@@ -1,7 +1,7 @@
    Host dietpi
        HostName 192.168.100.58
        User root
-   Host odroid
+   Host omv
        HostName 192.168.100.123
        User root
    Host napasnake
