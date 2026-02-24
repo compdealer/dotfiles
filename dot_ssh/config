@@ -13,6 +13,3 @@
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
        User root
-   Host ufo
-       HostName 45.136.149.14
-       User root
