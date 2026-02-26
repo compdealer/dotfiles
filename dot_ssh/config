@@ -13,4 +13,3 @@
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
        User root
-       RemoteCommand cd ~/antizapret && bash -l
