@@ -13,4 +13,4 @@
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
        User root
-       RemoteCommand cd ~/antizapret && $SSH_ORIGINAL_COMMAND
+       RemoteCommand cd ~/antizapret && $SHELL -l
