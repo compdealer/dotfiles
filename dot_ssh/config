@@ -13,6 +13,3 @@
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
        User root
-       RequestTTY force
-       RemoteCommand cd ~/antizapret && exec $SHELL -il
-       
