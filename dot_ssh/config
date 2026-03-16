@@ -13,6 +13,9 @@
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
        User root
+   Host testAZ
+       HostName 144.124.248.137
+       User root
    Host altar
        HostName 192.168.100.44
        User ALTAR\docto
