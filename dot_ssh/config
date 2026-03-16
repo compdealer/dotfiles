@@ -14,7 +14,7 @@
        HostName v180411.hosted-by-vdsina.com
        User root
    Host testAZ
-       HostName 144.124.248.137
+       HostName v698428.hosted-by-vdsina.com
        User root
    Host altar
        HostName 192.168.100.44
