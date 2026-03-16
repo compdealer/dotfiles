@@ -13,7 +13,7 @@
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
        User root
-   Host testAZ
+   Host testaz
        HostName v698428.hosted-by-vdsina.com
        User root
    Host altar
