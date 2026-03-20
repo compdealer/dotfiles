@@ -1,9 +1,9 @@
 #!/bin/bash
-#Подготовка ssh - отлючаем пароль, вход по ключу
+# Подготовка ssh - отлючаем пароль, вход по ключу
 # Description:
 # This script sets certain parameters in /etc/ssh/sshd_config.
 # It's not production ready and only used for training purposes.
-#
+# 
 # What should it do?
 # * Check whether a /etc/ssh/sshd_config file exists
 # * Create a backup of this file
@@ -18,23 +18,23 @@ param[1]="PermitRootLogin "
 param[2]="PubkeyAuthentication"
 param[3]="AuthorizedKeysFile"
 param[4]="PasswordAuthentication"
-
 # Functions
+
 usage(){
-  cat << EOF
-    usage: $0 ARG1
-    ARG1 Name of the sshd_config file to edit.
-    In case ARG1 is empty, /etc/ssh/sshd_config will be used as default.
+  cat << eof
+    usage: $0 arg1
+    arg1 name of the sshd_config file to edit.
+    in case arg1 is empty, /etc/ssh/sshd_config will be used as default.
 
-    Description:
-    This script sets certain parameters in /etc/ssh/sshd_config.
-    It's not production ready and only used for training purposes.
+    description:
+    this script sets certain parameters in /etc/ssh/sshd_config.
+    it's not production ready and only used for training purposes.
 
-    What should it do?
-    * Check whether a /etc/ssh/sshd_config file exists
-    * Create a backup of this file
-    * Edit the file to set certain parameters
-EOF
+    what should it do?
+    * check whether a /etc/ssh/sshd_config file exists
+    * create a backup of this file
+    * edit the file to set certain parameters
+eof
 }
 
 backup_sshd_config(){
