@@ -18,8 +18,9 @@ param[1]="PermitRootLogin "
 param[2]="PubkeyAuthentication"
 param[3]="AuthorizedKeysFile"
 param[4]="PasswordAuthentication"
+
 # Functions
-usage (){
+usage(){
   cat << EOF
     usage: $0 ARG1
     ARG1 Name of the sshd_config file to edit.
@@ -28,11 +29,12 @@ usage (){
     Description:
     This script sets certain parameters in /etc/ssh/sshd_config.
     It's not production ready and only used for training purposes.
+
     What should it do?
     * Check whether a /etc/ssh/sshd_config file exists
     * Create a backup of this file
     * Edit the file to set certain parameters
-EOF  
+EOF
 }
 
 backup_sshd_config(){
