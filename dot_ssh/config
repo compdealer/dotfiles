@@ -12,6 +12,7 @@
        User eugene
    Host vdsina
        HostName v180411.hosted-by-vdsina.com
+       LocalForward 8505 localhost:8505
        User root
    Host testaz
        HostName v698551.hosted-by-vdsina.com
